@@ -8,13 +8,13 @@ categories: csharp
 ## Before
 
 {% highlight csharp %}
-var obj = new MyClass {MyProperty="Hello, World!"};
+var obj = new MyClass {MyProperty = "Hello, World!"};
 {% endhighlight %}
 
 ## After
 
 {% highlight csharp %}
-var obj = new MyClass { MyProperty="Hello, World!" };
+var obj = new MyClass { MyProperty = "Hello, World!" };
 {% endhighlight %}
 
 ## How to
