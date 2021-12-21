@@ -23,7 +23,7 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
   Notes, tech tips, tutorials and more authored by Daniel Harrison, a Senior Software Engineer working in Manchester, UK.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://danharrison.dev" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: danharrisondev
 github_username:  danharrisondev
 
@@ -31,6 +31,7 @@ github_username:  danharrisondev
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
