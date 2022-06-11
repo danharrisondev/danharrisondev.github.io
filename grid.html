@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>danharrison.dev</title>
+</head>
+<body>
+    <h1>Hello, CSS Grid!</h1>
+    <h2>Two column layout</h2>
+    <div class="grid">
+        <div>
+            1
+        </div>
+        <div>
+            2
+        </div>
+    </div>
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .grid div {
+            background-color: red;
+            min-height: 10px;
+            text-align: center;
+            color: #fff;
+        }
+    </style>
+</body>
+</html>

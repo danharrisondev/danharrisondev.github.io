@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>danharrison.dev</title>
+</head>
+<body>
+    <h1>Hello, Flex!</h1>
+    <h2>Two column layout</h2>
+    <div class="flex">
+        <div>
+            1
+        </div>
+        <div>
+            2
+        </div>
+    </div>
+    <style>
+        .flex {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .flex div {
+            flex-grow: 1;
+            background-color: red;
+            min-height: 10px;
+            text-align: center;
+            color: #fff;
+        }
+    </style>
+</body>
+</html>
